@@ -12,5 +12,6 @@ namespace EvaluacionApi.Context
         {
         }
         public DbSet<Servicio> Servicio { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

@@ -6,12 +6,14 @@ namespace EvaluacionApi.Entities
     {
         public int Id { get; set; }
         [Required]
-        public string nombre { get; set; }
+        public string? nombre { get; set; }
         [Required]
-        public string descripcion { get; set; }
+        public string? descripcion { get; set; }
         [Required]
-        public int numeroHabitacion { get; set; }
+        public int? numeroHabitacion { get; set; }
         [Required]
-        public string estado { get; set;; }
+        public string? estado { get; set; }
+
+        public List<Usuario>? Usuarios { get; set; }
     }
 }
